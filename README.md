@@ -6,7 +6,8 @@
 
 > **This fork (ramonacraft):** public case study — I ran the local stack, loaded my QA / delivery
 > portfolio READMEs, searched from Cursor over MCP, and compiled the in-DB wiki.
-> **[Wiki: What I built →](https://github.com/ramonacraft/second-brain/wiki)** · Upstream:
+> **[Case study: What I built →](docs/showcase/README.md)** ·
+> [Wiki](https://github.com/ramonacraft/second-brain/wiki) · Upstream:
 > [LindaHaviv/second-brain](https://github.com/LindaHaviv/second-brain). Showcase uses **public**
 > GitHub content only (no private notes).
 
