@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="260" viewBox="0 0 980 260" role="img" aria-labelledby="title desc">
+  <title id="title">Second Brain fork walkthrough</title>
+  <desc id="desc">Public GitHub READMEs load into Oracle 26ai, then hybrid search and wiki, then MCP in Cursor and Claude.</desc>
+
+  <rect width="980" height="260" fill="#0f172a" rx="16"/>
+
+  <text x="110" y="34" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">1. Public sources</text>
+  <text x="350" y="34" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">2. Oracle brain</text>
+  <text x="610" y="34" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">3. Search + wiki</text>
+  <text x="850" y="34" fill="#94a3b8" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">4. Ask anywhere</text>
+
+  <rect x="30" y="64" width="160" height="44" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="110" y="92" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">GitHub profile</text>
+  <rect x="30" y="122" width="160" height="44" rx="12" fill="#e0f2fe" stroke="#0284c7" stroke-width="2"/>
+  <text x="110" y="150" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Project READMEs</text>
+
+  <path d="M190 86 C230 86, 250 108, 270 116" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
+  <path d="M190 144 C230 144, 250 128, 270 122" fill="none" stroke="#94a3b8" stroke-width="2.5"/>
+  <polygon points="270,119 258,113 258,125" fill="#94a3b8"/>
+
+  <rect x="280" y="70" width="160" height="44" rx="12" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="360" y="98" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Oracle 26ai</text>
+  <rect x="280" y="128" width="160" height="44" rx="12" fill="#ccfbf1" stroke="#0d9488" stroke-width="2"/>
+  <text x="360" y="156" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">MiniLM in-DB</text>
+
+  <line x1="440" y1="122" x2="490" y2="122" stroke="#94a3b8" stroke-width="2.5"/>
+  <polygon points="490,122 478,116 478,128" fill="#94a3b8"/>
+
+  <rect x="500" y="70" width="170" height="44" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="585" y="98" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Hybrid search</text>
+  <rect x="500" y="128" width="170" height="44" rx="12" fill="#fef3c7" stroke="#d97706" stroke-width="2"/>
+  <text x="585" y="156" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Compiled wiki</text>
+
+  <line x1="670" y1="122" x2="720" y2="122" stroke="#94a3b8" stroke-width="2.5"/>
+  <polygon points="720,122 708,116 708,128" fill="#94a3b8"/>
+
+  <rect x="730" y="70" width="210" height="44" rx="12" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+  <text x="835" y="98" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">MCP in Cursor</text>
+  <rect x="730" y="128" width="210" height="44" rx="12" fill="#fce7f3" stroke="#be185d" stroke-width="2"/>
+  <text x="835" y="156" fill="#0f172a" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="700" text-anchor="middle">Claude Desktop</text>
+
+  <text x="110" y="220" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" text-anchor="middle">Profile + delivery loop</text>
+  <text x="360" y="220" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" text-anchor="middle">Colima local Free</text>
+  <text x="585" y="220" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" text-anchor="middle">Meaning + topics</text>
+  <text x="835" y="220" fill="#64748b" font-family="ui-sans-serif, system-ui, sans-serif" font-size="13" text-anchor="middle">Same brain, any chat</text>
+
+  <text x="490" y="246" fill="#475569" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" text-anchor="middle">Content domain: TestMCP -&gt; ForgeQA -&gt; Release Gate -&gt; War Room | public sources only</text>
+</svg>
