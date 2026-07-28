@@ -6,6 +6,17 @@ I ran the local stack end to end, pointed it at my **public** QA / delivery port
 
 **Upstream credit:** everything here stands on Linda's architecture — Oracle AI Database 26ai, in-DB embeddings, privacy filters, agent memory, and MCP. Thank you, Linda.
 
+## How the flow works
+
+![Ramona's Second Brain walkthrough: public GitHub READMEs into Oracle 26ai, hybrid search and wiki, MCP in Cursor and Claude; content domain is TestMCP to ForgeQA to Release Gate to War Room](flow.png)
+
+| Step | What it is |
+|------|------------|
+| **1 · Public GitHub READMEs** | Profile + War Room, Release Gate, ForgeQA, TestMCP |
+| **2 · Oracle 26ai + MiniLM** | Local Colima container, in-DB embeddings |
+| **3 · Hybrid search + wiki** | Meaning search, research agent, compiled topic pages |
+| **4 · MCP in Cursor + Claude** | Same brain reachable from the tools I actually use |
+
 ## Start here
 
 | Page | What's on it |
