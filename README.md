@@ -4,6 +4,12 @@
 > chats — unified in a single Oracle database: searchable by meaning, synthesized into a living
 > wiki, reachable from any AI assistant, and yours alone.*
 
+> **This fork (ramonacraft):** public case study — I ran the local stack, loaded my QA / delivery
+> portfolio READMEs, searched from Cursor over MCP, and compiled the in-DB wiki.
+> **[Wiki: What I built →](https://github.com/ramonacraft/second-brain/wiki)** · Upstream:
+> [LindaHaviv/second-brain](https://github.com/LindaHaviv/second-brain). Showcase uses **public**
+> GitHub content only (no private notes).
+
 Everything you make and learn scatters across apps that each remember a little and forget the rest.
 This is the fix: a **second brain** — one home for *your* content and thinking that you can **search
 by meaning**, that **compiles itself into a synthesized knowledge layer**, that **keeps your private

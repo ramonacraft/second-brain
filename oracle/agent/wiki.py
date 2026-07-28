@@ -48,9 +48,12 @@ def _json(client, system, prompt, schema, max_tokens=2048):
 
 def propose_topics(client, conn, n=10):
     cur = conn.cursor()
+    # All searchable content (any loader/platform) — not just youtube/notion.
+    # kind='reference' stays out: wiki synthesizes YOUR work, not imported libraries.
     cur.execute("SELECT title FROM posts WHERE title IS NOT NULL "
                 "AND NVL(visibility,'content') = 'content' "
-                "AND platform_id IN ('youtube','notion') FETCH FIRST 200 ROWS ONLY")
+                "AND NVL(kind,'x') <> 'reference' "
+                "FETCH FIRST 200 ROWS ONLY")
     titles = [r[0] for r in cur.fetchall()]
     cur.execute("SELECT fact FROM semantic_memory FETCH FIRST 30 ROWS ONLY")
     facts = [r[0] for r in cur.fetchall()]
